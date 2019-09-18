@@ -1,4 +1,5 @@
 const onoff = require('onoff');
+const Gpio = onoff.Gpio;
 
 // initialize pin 17 in input mode, respond to rising and falling interrupt edges
 const sensor = new Gpio(17, 'in', 'both');
